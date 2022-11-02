@@ -1,0 +1,14 @@
+{
+   "name":"DBHM",
+   "version":"1",
+   "api":{
+        "packages":[
+                      "python",
+                      "python_discord.py",
+                      "python_tkinter"
+                    ],
+        "build-packages":[
+                             "python_pyinstaller"
+                         ]
+         }
+}
