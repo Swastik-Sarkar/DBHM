@@ -1,4 +1,4 @@
 import os 
-import src/runcheck
+import src.runcheck
 
 os.system("python3 src/runcheck.py")
