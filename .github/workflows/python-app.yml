@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build:
-
+    working-directory: ./relases/v1
     runs-on: ubuntu-latest
 
     steps:
@@ -30,5 +30,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test Current Release
       run: |
-        cd ./releases/v1
         python3 run.py
